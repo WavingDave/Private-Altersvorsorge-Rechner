@@ -32,6 +32,6 @@ Er zeigt, wie viel Eigenanteil, Grundförderung und Kinderförderung im Laufe de
 1. Projekt klonen:
 
 ```bash
-git clone https://github.com/DEIN_USERNAME/altersvorsorge-depot-rechner.git
+git clone https://github.com/WavingDave/altersvorsorge-depot-rechner.git
 cd altersvorsorge-depot-rechner
 ```
