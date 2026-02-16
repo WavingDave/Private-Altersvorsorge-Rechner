@@ -23,8 +23,7 @@ Er zeigt, wie viel Eigenanteil, Grundförderung und Kinderförderung im Laufe de
 ---
 
 ## Demo
-
-![Screenshot](scre<img width="1280" height="1196" alt="screenshot png" src="https://github.com/user-attachments/assets/e70b0ba7-89a9-4ae9-affb-de9fd0d5a46c" />
+<img width="1280" height="1196" alt="screenshot png" src="https://github.com/user-attachments/assets/e70b0ba7-89a9-4ae9-affb-de9fd0d5a46c" />
 enshot.png)
 
 ---
