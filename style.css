@@ -1,0 +1,121 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg);
+  margin: 0;
+  padding: 40px;
+}
+:root {
+  --bg: #fff;
+  --card: #f5f5f5;
+  --muted: #a8b3c7;
+  --text: #15284b;
+  --textShadow: #a6adbb;
+  --accent: #4d6bdd;
+  --danger: #ef4444;
+  --success: #4d6bdd;
+  --border: #efeff1;
+  --button-hover: #445ec4;
+  --button-active: #556fda;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: var(--card);
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: var(--text);
+  font-weight: bold;
+  text-shadow: var(--textShadow) 0px 1px 2px;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: var(--danger);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: var(--text);
+  text-shadow: var(--textShadow) 0px 1px 2px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+#kinderAlterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.kinderInputWrapper {
+  flex-direction: column;
+}
+
+.kinderAlterInput {
+  margin: auto;
+  width: 105px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--success);
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+button:active {
+  background-color: var(--button-active);
+}
+
+.error {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fdecea;
+  color: #b71c1c;
+  border-radius: 6px;
+  font-weight: bold;
+  visibility: inherit;
+}
+
+#error,
+#ergebnis {
+  display: none;
+}
+
+.result {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #eaf2f8;
+  border-radius: 8px;
+  line-height: 1.6;
+}

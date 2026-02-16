@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renten-Förderrechner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Renten-Förderrechner</h1>
+      <h3>
+        Alle Angaben sind ohne Gewähr und beinhalten keine Kosten des Vertriebs!
+      </h3>
+
+      <label>Aktuelles Alter</label>
+      <input type="number" id="alter" placeholder="18" />
+
+      <label>Anzahl Kinder</label>
+      <input type="number" id="kinder" min="0" max="10" placeholder="0" />
+
+      <div id="kinderAlterContainer"></div>
+
+      <label>Monatliche Sparrate (€)</label>
+      <input type="number" id="sparrate" placeholder="100" />
+
+      <label>Startjahr</label>
+      <input type="number" id="startjahr" value="2027" placeholder="2027" />
+
+      <button id="berechnenBtn">Berechnen</button>
+
+      <div id="error" class="error"></div>
+      <div id="ergebnis" class="result"></div>
+    </div>
+
+    <script type="module" src="foerderungsrechner.js"></script>
+  </body>
+</html>
